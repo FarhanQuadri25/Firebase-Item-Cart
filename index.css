@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300;1,400;1,600&family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@500&family=Roboto:wght@100&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    font-family: 'Poppins';
+    background-color: whitesmoke;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    margin: 30px auto;
+    padding: 3rem;
+
+    transform: translateY(70px);
+    mix-blend-mode: multiply;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+input {
+    color: #432000;
+    background-color: powderblue;
+
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poppins';
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+button {
+    color: black;
+    background-color: springgreen;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(15, 156, 88, 0.791);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.3);
+    color: black;
+}
+
+ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px hsla(0, 0%, 0%, 0.2);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: crimson;
+    color: white;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.4);
+    transition: all 200ms ease-in-out;
+}
